@@ -15,11 +15,7 @@ public class SfgDiApplication {
 
         MyController myController = (MyController) ctx.getBean("myController");
         String greets = myController.sayHello();
-
-        System.out.println(greets);
-
-		SystemProperties systemProperties = (SystemProperties) ctx.getBean("systemProperties");
-		systemProperties.toString();
+        
 
     }
 

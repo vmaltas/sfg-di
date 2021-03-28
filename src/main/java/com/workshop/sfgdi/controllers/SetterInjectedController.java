@@ -1,6 +1,6 @@
-package guru.springframework.sfgdi.controllers;
+package com.workshop.sfgdi.controllers;
 
-import guru.springframework.sfgdi.services.GreetingService;
+import com.workshop.sfgdi.services.GreetingService;
 
 /**
  * Created by jt on 12/26/19.
